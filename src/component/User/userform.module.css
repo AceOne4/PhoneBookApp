@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 10px;
+  background: #ffb89f;
+  padding: 15px;
+  border-radius: 20px;
+}
+.submit {
+  width: 20%;
+  background-color: rgb(5, 5, 5);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 40%;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: red;
+  color: whitesmoke;
+}
